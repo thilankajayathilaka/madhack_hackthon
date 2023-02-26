@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_white"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="48dp">
+
+    <!-- User avatar -->
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- User name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abc"
+        android:textColor="@color/text_dark"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <!-- User email -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abc@gamil.com"
+        android:textColor="@color/text_dark"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="@color/text_dark"
+            android:background="@color/white"
+            android:drawablePadding="8dp"
+            android:padding="16dp"
+            android:gravity="start|center_vertical"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About App"
+            android:textColor="@color/text_dark"
+            android:background="@color/white"
+            android:drawablePadding="8dp"
+            android:padding="16dp"
+            android:gravity="start|center_vertical"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@color/text_dark"
+            android:background="@color/white"
+            android:drawablePadding="8dp"
+            android:padding="16dp"
+            android:gravity="start|center_vertical" />
+
+    </LinearLayout>
+
+</LinearLayout>
